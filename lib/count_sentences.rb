@@ -18,7 +18,7 @@ class String
     count_array = self.split(/\.|\?|\!/)
     count_array.count do |x|
       x.size >= 1
-    binding.pry
+    # binding.pry
     end
     #SPLIT by any last punctuation into an array
     #COMPACT(!) removes nil values from an array
