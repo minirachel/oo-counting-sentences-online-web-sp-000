@@ -15,10 +15,9 @@ class String
   end
 
   def count_sentences
-
     count_array = self.split(/\.|\?|\!/)
     count_array.count do |x|
-              binding.pry
+    binding.pry
     end
     #SPLIT by any last punctuation into an array
     #COMPACT(!) removes nil values from an array
