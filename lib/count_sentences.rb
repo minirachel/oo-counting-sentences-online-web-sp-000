@@ -16,7 +16,7 @@ class String
 
   def count_sentences
     binding.pry
-    count_array = self.split("\w+\W")
+    count_array = self.split(/\w+\W"/)
     count_array.count
     #SPLIT by any last punctuation into an array
     #COMPACT(!) removes nil values from an array
