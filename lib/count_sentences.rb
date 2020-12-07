@@ -16,7 +16,8 @@ class String
 
   def count_sentences
     binding.pry
-    self.split("\w+\W")
+    count_array = self.split("\w+\W").compact
+    count_array.count
     #SPLIT by any last punctuation into an array
     #COMPACT(!) removes nil values from an array
     #COUNT counts number of items in array
