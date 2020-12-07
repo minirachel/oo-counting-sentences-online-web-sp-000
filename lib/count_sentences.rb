@@ -16,10 +16,11 @@ class String
 
   def count_sentences
     # binding.pry
-    count_array = self.split(/\w+\W/)
+    count_array = self.split(/\.|\?|\!/)
     count_array.count
     #SPLIT by any last punctuation into an array
     #COMPACT(!) removes nil values from an array
+      # - didn't need to use because we're qualifying based on content existing
     #COUNT counts number of items in array
     #REGEX?
   end
