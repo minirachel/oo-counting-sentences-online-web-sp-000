@@ -15,6 +15,7 @@ class String
   end
 
   def count_sentences
+    binding.pry
     self.split("\w+\W(\s|\W)")
     #SPLIT by any last punctuation into an array
     #COMPACT(!) removes nil values from an array
